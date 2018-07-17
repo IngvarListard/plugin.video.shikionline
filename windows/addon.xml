@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.shikionline"
+version="0.0.1"
+name="Shikimori Anime Online"
+provider-name="HarryFox">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.youtube.dl" version="18.425.0"/>
+  <import addon="script.module.simplejson"/>
+  <import addon="script.module.requests"/>
+  <import addon="script.module.beautifulsoup4"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="resources/lib/smotret-anime/launcher.py" start="login" />
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Shikimori Anime Online</summary>
+  <description lang="ru">Шикимори - онлайн энциклопедия аниме и манги. Просмотр аниме-сериалов онлайн, даты выхода всех серий. Полный список популярной манги на русском. Shikimori.org - лучший отечественный аниме-форум для общения.</description>
+  <disclaimer lang="ru">Аддон для удобного просмотра и поиска аниме с сайта shikimori.org.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources\screenshot-01.jpg</screenshot>
+    <screenshot>resources\screenshot-02.jpg</screenshot>
+    <screenshot>resources\screenshot-03.jpg</screenshot>    
+  </assets>
+  <news>Just released</news>
+</extension>
+</addon>

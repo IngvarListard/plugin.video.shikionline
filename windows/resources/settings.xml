@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Локализация">
+		<setting id="locale" type="select" label="Предпочитаемый тип локализации" values="sub|dub" default="dub"/>
+	</category>
+	<category label="Озвучка">
+    <setting label="Редактировать приоритетный список" type="bool" id="autoplay" default="true"/>
+    <setting label="Приоритетный список команд фандаба" type="lsep"/>
+		<setting id="prior1" type="select" label="Наивысший приоритет" enable="eq(-2,true)" values="AniDub|Studio Band|Anilibria|SHIZA|Onibaku|Anifilm|Animedia|Kansai|Aniplay|SovetRomantica|2x2" default="Anidub"/>
+		<setting id="prior2" type="select" label="#2" enable="eq(-3,true)" values="AniDub|Studio Band|Anilibria|SHIZA|Onibaku|Anifilm|Animedia|Kansai|Aniplay|SovetRomantica|2x2" default="Studio Band"/>
+		<setting id="prior3" type="select" label="#3" enable="eq(-4,true)" values="AniDub|Studio Band|Anilibria|SHIZA|Onibaku|Anifilm|Animedia|Kansai|Aniplay|SovetRomantica|2x2" default="Anilibria"/>
+		<setting id="prior4" type="select" label="#4" enable="eq(-5,true)" values="AniDub|Studio Band|Anilibria|SHIZA|Onibaku|Anifilm|Animedia|Kansai|Aniplay|SovetRomantica|2x2" default="SHIZA"/>
+		<setting id="prior5" type="select" label="#5" enable="eq(-6,true)" values="AniDub|Studio Band|Anilibria|SHIZA|Onibaku|Anifilm|Animedia|Kansai|Aniplay|SovetRomantica|2x2" default="Onibaku"/>
+		<setting id="prior6" type="select" label="#6" enable="eq(-7,true)" values="AniDub|Studio Band|Anilibria|SHIZA|Onibaku|Anifilm|Animedia|Kansai|Aniplay|SovetRomantica|2x2" default="Anifilm"/>
+		<setting id="prior7" type="select" label="#7" enable="eq(-8,true)" values="AniDub|Studio Band|Anilibria|SHIZA|Onibaku|Anifilm|Animedia|Kansai|Aniplay|SovetRomantica|2x2" default="Animedia"/>
+		<setting id="prior8" type="select" label="#8" enable="eq(-9,true)" values="AniDub|Studio Band|Anilibria|SHIZA|Onibaku|Anifilm|Animedia|Kansai|Aniplay|SovetRomantica|2x2" default="Kansai"/>
+		<setting id="prior9" type="select" label="#9" enable="eq(-10,true)" values="AniDub|Studio Band|Anilibria|SHIZA|Onibaku|Anifilm|Animedia|Kansai|Aniplay|SovetRomantica|2x2" default="Aniplay"/>
+		<setting id="prior10" type="select" label="#10" enable="eq(-11,true)" values="AniDub|Studio Band|Anilibria|SHIZA|Onibaku|Anifilm|Animedia|Kansai|Aniplay|SovetRomantica|2x2" default="SovetRomantica"/>
+	</category>
+	<category label="Видео">
+		<setting id="smotret-anime" type="bool" label="Воспроизводить видео с сайта smotret-anime.ru" default="true"/>
+	</category>
+</settings>
+
