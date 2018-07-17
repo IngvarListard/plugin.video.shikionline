@@ -8,17 +8,17 @@
 
 - автоматический выбор видео с озвучкой по приоритетному списку команд фандаба. Список можно редактировать вручную:
 
-![screen1](https://pp.userapi.com/c830209/v830209760/145a9c/bNKDDQmE2I8.jpg =500x)
+![screen1](https://pp.userapi.com/c830209/v830209760/145a9c/bNKDDQmE2I8.jpg =500x281)
 
 - автоматический выбор видео с субтитрами. Выбирается самое популярное видео (по количеству просмотров);
 - выбор видео из контекстного меню вручную:
 
-![screen2](https://pp.userapi.com/c844724/v844724377/a12ff/lJwsmnZH2-k.jpg =500x)
-![screen3](https://pp.userapi.com/c844724/v844724377/a1313/DFxb5fdq4j4.jpg =500x)
+![screen2](https://pp.userapi.com/c844724/v844724377/a12ff/lJwsmnZH2-k.jpg =500x281)
+![screen3](https://pp.userapi.com/c844724/v844724377/a1313/DFxb5fdq4j4.jpg =500x281)
 
 - поиск как по названию тайтла, так и расширенный:
 
-![screen4](https://pp.userapi.com/c846524/v846524377/9d37d/IFVpyZfS8jg.jpg =500x)
+![screen4](https://pp.userapi.com/c846524/v846524377/9d37d/IFVpyZfS8jg.jpg =500x281)
 
 - домашняя страница -- последние обновления с сайта play.shikimori;
 - избранное сообществом;
